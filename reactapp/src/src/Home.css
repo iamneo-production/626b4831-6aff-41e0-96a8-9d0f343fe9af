@@ -1,0 +1,155 @@
+h2 {
+    margin-left: 25px;
+    font-family: Lato,sans-serif;
+    margin-top: 15px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+    /* color: red; */
+}
+
+li a {
+    /* display: block; */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: white;
+}
+
+.active {
+    background-color: white;
+}
+
+#a {
+    text-align: center;
+}
+
+:root {
+    --page-margin: min(2rem, 5vw);
+    color: #444;
+}
+
+section {
+    grid-template-columns: var(--page-margin) [center-start] 1fr [center-end] var(--page-margin);
+}
+
+section>* {
+    grid-column: center;
+}
+
+.cards-wrapper {
+    grid-column: center-start/-1;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    overflow: auto;
+    padding-bottom: 1rem;
+    padding-right: 5px;
+}
+
+.cards-wrapper .card {
+    display: grid;
+    place-content: center;
+    background-color: white;
+    color: white;
+    font-size: 1.5rem;
+    height: 20rem;
+    min-width: 13rem;
+    margin-top: 9px;
+}
+
+.cards-wrapper {
+    grid-column: center-start/-1;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 20px;
+    overflow: auto;
+    padding-bottom: 1rem;
+    padding-left: 5px;
+    /* margin-top: 20px; */
+}
+
+.cards-wrapper .cards {
+    display: grid;
+    place-content: center;
+    background-color: white;
+    color: white;
+    font-size: 1.5rem;
+    height: 20rem;
+    min-width: 13rem;
+    margin-top: 20px;
+}
+
+.a {
+    margin-left: 45px;
+    width: 20%;
+    display: grid;
+    gap: 10px;
+    float: left;
+    padding: 10px;
+}
+
+.b {
+    width: 20%;
+    display: grid;
+    float: left;
+    gap: 10px;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+.c {
+    width: 20%;
+    display: grid;
+    float: left;
+    gap: 10px;
+    padding: 10px;
+    margin-left: 55px;
+}
+
+.d {
+    width: 20%;
+    display: grid;
+    float: left;
+    padding: 10px;
+    margin-left: 45px;
+}
+
+/* .ho1 {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    float: right;
+    margin-top: 30px;
+    margin-right: 110px;
+}  */
+.ho1 {
+    display: inline-block;
+    /* padding: 15px 25px; */
+    font-size: 10px;
+    cursor: pointer;
+    /* text-align: center; */
+    text-decoration: none;
+    float: right;
+    /* background-color: white; */
+    /* outline: none; */
+    color: rgb(0, 0, 0);
+    /* border: none;
+    border-radius: 15px; */
+    /* box-shadow: 0 5px #999; */
+    width: 50px;
+  }

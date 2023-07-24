@@ -1,0 +1,74 @@
+
+.contact-us-container {
+    padding: 150px 30px 80px 30px;
+    margin: 0px 0px 0px 0px;
+    width: 40%;
+    margin: 0 auto;
+    align-self: center;
+    background-color: transparent;
+    border-radius: 5px;
+    font-family: Lato,sans-serif;
+    
+    
+}
+
+.contact-us-container h1 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+#lb {
+
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.in[type="text1"]{
+  height: 25px;
+  width: 53vh;
+  border: 1px solid grey;
+  color: #6a3818;
+}
+
+.in[type="text2"]{
+
+    width: 342px;
+    height: 95px;
+  border: 1px solid grey;
+  color: #6a3818;
+}
+
+.in,
+text1area {
+  width: 20vh;
+  padding: 20px;
+  font-size: 12px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.btn[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn[type='submit1']:hover {
+  background-color: #0056b3;
+}
+
+element.style {
+  width: 338px;
+  height: 95px;
+}

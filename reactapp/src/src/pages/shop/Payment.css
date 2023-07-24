@@ -1,0 +1,77 @@
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .payment-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .payment-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+  }
+  
+  .payment-methods {
+    margin-bottom: 20px;
+  }
+  
+  .payment-option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .payment-option input[type='radio'] {
+    margin-right: 10px;
+  }
+  
+  .payment-details {
+    margin-bottom: 20px;
+  }
+  
+  .upi-payment,
+  .credit-card-payment {
+    display: none;
+  }
+  
+  .payment-details .upi-payment {
+    display: block;
+  }
+  
+  .payment-details .credit-card-payment {
+    display: block;
+  }
+  
+  .payment-details label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .payment-details input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .payment-button {
+    padding: 10px 20px;
+    background-color: #008cff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .payment-button:hover {
+    background-color: #0070cc;
+  }
+  
