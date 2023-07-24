@@ -1,0 +1,129 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.shopTitle {
+  /* padding: top 25px;; */
+  /* margin-top: 10px; */
+  text-align: center;
+  font-size: 20px;
+  font-family: Lato,sans-serif;
+  
+}
+.products {
+  width:0%;
+  /* height: fit-content; */
+  display: grid;
+  /* position: relative; */
+  grid-template-columns: 40vh 60vh 40vh ;
+  place-items: center;
+  font-family: Lato,sans-serif;
+
+}
+
+.product {
+  /* border-radius: 10px; */
+  width: 250px;
+  margin: 50px;
+  height: 330px;
+  position: initial;
+  border-radius: 20px;
+  font-family: Lato,sans-serif;
+  /* flex-direction: column; */
+  /* //justify-content: center; */
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+  /* align-self: center; */
+}
+
+.product .description {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.product:hover {
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+/* .addToCartBttn {
+  /* background-color: transparent; */
+  /* border: 2px solid green; */
+  /* min-width: 100px; */
+  /* padding-left: 0%;
+  
+  padding-top: 5px;
+  padding-bottom: 5px; */
+
+  /* margin-top:15px;
+  align-items: center; */
+  /* padding-right: 5px;  */
+  /* margin-right: 70px; */
+/* } */ 
+/* 
+.addToCartBttn:hover { */
+  /* background-color: rgb(19, 19, 19); */
+  /* color: white; */
+  /* cursor: pointer; */
+  
+/* } */
+.sidebar {
+  font-family: Lato,sans-serif;
+  margin: 0px;
+  margin-top: 5.6%;
+  width: 250px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 1000px;
+  overflow: none;
+
+}
+
+.sidebar a {
+  display: block;
+  color: brown;
+  padding: 16px;
+  text-align: center;
+  font-family: Lato,sans-serif;
+}
+ 
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+  text-decoration: underline;
+}
+
+div.contents {
+  margin-left: 300px;
+  padding-top: 75px;
+  height: 1000px;
+  position:initial;
+}
+
+.sidebar p{
+  margin-right: 3%;
+}
+
+/* .Button
+{
+  position: initial;
+} */
+
+div.sidebar dd{
+  display: block;
+  color: rgb(255, 66, 66);
+  padding: 16px;
+}
+
